@@ -5,4 +5,5 @@ cache:
 jdk:
 - oraclejdk8
 script:
-- destination/mvn clean package
+- cd ../destination
+- mvn clean package
